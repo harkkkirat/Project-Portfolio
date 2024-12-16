@@ -1,0 +1,112 @@
+---
+title: "Sports Data Redesign Projects"
+author: 
+  - "Harkirat Singh, G01476069"
+  - "Shukan Nikikumar Prajapati, G01474606"
+  - "Group No: 5"
+format: 
+  html:
+    theme: Yeti
+    mainfont: poppins
+    css: styles.css
+    toc: true
+    toc-title: "On This Page"
+---
+
+# Sports Data Redesign Projects
+
+This page showcases two redesign projects focused on **India's Cricket Performance** and **NFL Super Bowl Wins**. Both projects aim to reimagine data visualizations for clarity, engagement, and actionable insights.
+
+------------------------------------------------------------------------
+
+## India's Cricket Performance Redesign
+
+### Introduction
+
+This project focuses on redesigning visualizations of India’s cricket team performance metrics, including wins, losses, and key player contributions. By improving the clarity and storytelling of the original visuals, we aim to offer insights that align with strategic decision-making in the sport.
+
+------------------------------------------------------------------------
+
+### Original Visualization: A Critical Review
+
+![Original Cricket Performance Chart](Cricket%20Original.jpeg)
+
+The original visualization had the following drawbacks: 1. **Overuse of Pie Charts**: Difficult to compare percentages across multiple charts. 2. **Data Overload**: Too much data presented simultaneously, making it hard to identify patterns. 3. **Lack of Narrative**: The chart failed to tell a compelling story about India’s performance.
+
+------------------------------------------------------------------------
+
+### Redesigned Visualization
+
+#### Redesigned Bar Plot
+
+![Redesigned Plot for Wins and Losses](India's%20Performance%20Type%201.png) ![Redesigned Plot for Wins and Losses](India's%20Performance%20Type%202.png) ![Redesigned Plot for Wins and Losses](India's%20Scores%20Type%201.png) ![Redesigned Plot for Wins and Losses](India's%20Scores%20Type%202.png)
+
+The bar plot simplifies the data, allowing clear comparison between wins and losses over different years or tournaments.
+
+------------------------------------------------------------------------
+
+### Key Insights
+
+1.  **Consistency Over the Years**: The bar plot reveals India's consistent win ratio in bilateral series.
+2.  **Top Performers**: The heatmap identifies players who made significant contributions in high-stakes matches.
+
+------------------------------------------------------------------------
+
+## NFL Super Bowl Wins Redesign Project
+
+### Introduction
+
+This project reimagines visualizations of NFL Super Bowl victories, analyzing success across teams, divisions, and conferences. By improving upon the original sunburst chart, the redesign focuses on clarity, accessibility, and storytelling.
+
+------------------------------------------------------------------------
+
+### Original Visualization: A Critical Review
+
+![Original Sunburst Chart of NFL Super Bowl Wins](Super%20Bowl%20Winners.png)
+
+The original sunburst chart has several drawbacks: 1. **Complexity vs. Utility**: The radial layout obscures clarity and makes comparison difficult. 2. **Design Preferences**: Pie and sunburst charts distort data, violating best practices.
+
+------------------------------------------------------------------------
+
+### Redesigned Visualization
+
+#### Redesigned Dot Plot
+
+![Redesigned Dot Plot of NFL Team Wins](Dot%20Plot.png)
+
+This dot plot provides clear, comparable data, categorizing teams by division and conference.
+
+#### Interactive Bar Chart
+
+![Interactive Bar Plot Visualization](All.png)
+
+This interactive bar chart allows users to: 1. Filter by **AFC** or **NFC** to explore team victories across conferences. 2. Drill down to divisions for specific comparisons.
+
+------------------------------------------------------------------------
+
+### Key Insights
+
+1.  **Clarity in Data Storytelling**: Dot plots and bar charts make data more accessible.
+2.  **Engagement**: Interactive elements encourage users to explore trends.
+
+------------------------------------------------------------------------
+
+## Conclusion
+
+Both projects exemplify the power of redesigning sports data visualizations. By replacing complex and cluttered charts with clear, interactive visuals, these projects achieve: - **Improved Analysis**: Provides actionable insights into team performances. - **Enhanced Engagement**: Makes exploring sports data intuitive and informative.
+
+These redesigns serve as a testament to the art of simplifying complexity and aligning visuals with academic rigor and storytelling.
+
+------------------------------------------------------------------------
+
+## References
+
+### Cricket Performance Redesign References
+
+1.  **ESPN Cricinfo Dataset**. <https://www.espncricinfo.com>
+2.  **Wickramasinghe, L.** (2020). "Analyzing Cricket Performance Metrics." *Journal of Sports Analytics*.
+3.  **Chaturvedi, R.** (2018). "Data-Driven Decisions in Cricket." *Data Science Quarterly*.
+
+### NFL Super Bowl Wins Redesign References
+
+1.  **McCann, Adam E.** "Super Bowl Winners." Tableau Public, Tableau Software, 2020. [https://public.tableau.com](https://public.tableau.com/app/profile/adam.e.mccann/viz/SuperBowlWinners_16077204678580/SuperBowlWinners).

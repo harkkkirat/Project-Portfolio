@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.450">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Harkirat Singh, G01476069">
+<meta name="author" content="Shukan Nikikumar Prajapati, G01474606">
+<meta name="author" content="Group No: 5">
+
+<title>Harkirat Singh - Data Projects Portfolio - NFL Super Bowl Wins Redesign Project</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="floating nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Harkirat Singh - Data Projects Portfolio</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./Bridge Longevity.html" rel="" target="">
+ <span class="menu-text">Bridge Longevity Analysis</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./Predictive Modeling for Hepatitis C.html" rel="" target="">
+ <span class="menu-text">Predictive Modeling for Hepatitis C</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./India Performance Redesign.html" rel="" target="">
+ <span class="menu-text">India’s Cricket Performance Redesign</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./Movie Recommendation using KNN.qmd" rel="" target="">
+ <span class="menu-text">Movie Recommendation System (KNN)</span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools ms-auto">
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
+    <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#introduction-to-nfl-super-bowl-wins-redesign-project" id="toc-introduction-to-nfl-super-bowl-wins-redesign-project" class="nav-link active" data-scroll-target="#introduction-to-nfl-super-bowl-wins-redesign-project"><span class="header-section-number">0.1</span> Introduction to NFL Super Bowl Wins Redesign Project</a></li>
+  <li><a href="#original-visualization-a-critical-review" id="toc-original-visualization-a-critical-review" class="nav-link" data-scroll-target="#original-visualization-a-critical-review"><span class="header-section-number">0.2</span> Original Visualization: A Critical Review</a></li>
+  <li><a href="#redesigning-nfl-super-bowl-wins-visualization" id="toc-redesigning-nfl-super-bowl-wins-visualization" class="nav-link" data-scroll-target="#redesigning-nfl-super-bowl-wins-visualization"><span class="header-section-number">0.3</span> Redesigning NFL Super Bowl Wins Visualization</a></li>
+  <li><a href="#interactive-exploration-of-nfl-team-success" id="toc-interactive-exploration-of-nfl-team-success" class="nav-link" data-scroll-target="#interactive-exploration-of-nfl-team-success"><span class="header-section-number">0.4</span> Interactive Exploration of NFL Team Success</a></li>
+  <li><a href="#concluding-thoughts-on-the-nfl-super-bowl-wins-redesign-project" id="toc-concluding-thoughts-on-the-nfl-super-bowl-wins-redesign-project" class="nav-link" data-scroll-target="#concluding-thoughts-on-the-nfl-super-bowl-wins-redesign-project"><span class="header-section-number">0.5</span> Concluding Thoughts on the NFL Super Bowl Wins Redesign Project</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references"><span class="header-section-number">0.6</span> References</a></li>
+  </ul>
+</nav>
+</nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">NFL Super Bowl Wins Redesign Project</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Harkirat Singh, G01476069 </p>
+             <p>Shukan Nikikumar Prajapati, G01474606 </p>
+             <p>Group No: 5 </p>
+          </div>
+  </div>
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="introduction-to-nfl-super-bowl-wins-redesign-project" class="level3" data-number="0.1">
+<h3 data-number="0.1" class="anchored" data-anchor-id="introduction-to-nfl-super-bowl-wins-redesign-project"><span class="header-section-number">0.1</span> Introduction to NFL Super Bowl Wins Redesign Project</h3>
+<p>Welcome to an explorative journey into the realm of the NFL, where we delve into the illustrious history of Super Bowl victories across teams, divisions, and conferences. This project springs from the core aim to reimagine how we visualize success in the league, blending class design guidelines with practical software applications.</p>
+<p>In this exhibit, you’ll first encounter the original visualization, a narrative in numbers that maps out the wins each team has clinched. What follows is my reinterpretation, crafted to not only enhance clarity and insight but also to demonstrate the rich potential of thoughtful design in statistical storytelling.</p>
+<p>This Redesign Project serves a tri-fold purpose:</p>
+<ol type="1">
+<li>To apply classroom design principles using the analytical tools we’ve mastered.</li>
+<li>To showcase the evolution from initial data to final redesign, presenting an evolution in understanding.</li>
+<li>To contribute a chapter to my growing portfolio, marking a milestone in my analytical and creative endeavors.</li>
+</ol>
+<p>Embrace the data, explore the transformations, and discover the stories that numbers whisper through their graphical representations.</p>
+</section>
+<section id="original-visualization-a-critical-review" class="level3" data-number="0.2">
+<h3 data-number="0.2" class="anchored" data-anchor-id="original-visualization-a-critical-review"><span class="header-section-number">0.2</span> Original Visualization: A Critical Review</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Super Bowl Winners.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Original Sunburst Chart of NFL Super Bowl Wins</figcaption>
+</figure>
+</div>
+<p>Following the introductory overview of our NFL Super Bowl Wins Redesign Project, we turn our attention to the initial visualization that set the stage for this analytical revamp. While the original sunburst chart provides a colorful and immediate visual differentiation between conferences and divisions, its effectiveness as a tool for detailed analysis is hindered by several factors:</p>
+<ol type="1">
+<li><p><strong>Complexity vs.&nbsp;Utility</strong>: The chart’s multi-tiered approach, although visually appealing, can obscure the clarity of data, with its intricate design overshadowing the conveyance of information.</p></li>
+<li><p><strong>Comparative Difficulty</strong>: The radial layout of a sunburst chart is not conducive to easy comparison across segments, leading to potential misinterpretation of the closely contested win counts among NFL teams.</p></li>
+<li><p><strong>Design Preferences</strong>: Adhering to the educational direction of our course, we acknowledge the limitations of pie charts, including their propensity to distort viewer perception due to angle and area size, an aspect our professor is particularly critical of.</p></li>
+</ol>
+<p>In light of these insights, the redesign aims to transform how we interpret these victories, shifting from a purely aesthetic display to a more nuanced and insightful narrative. The subsequent sections will unveil the redesigned visualizations, crafted to align with academic rigor and the strategic storytelling of data visualization.</p>
+</section>
+<section id="redesigning-nfl-super-bowl-wins-visualization" class="level3" data-number="0.3">
+<h3 data-number="0.3" class="anchored" data-anchor-id="redesigning-nfl-super-bowl-wins-visualization"><span class="header-section-number">0.3</span> Redesigning NFL Super Bowl Wins Visualization</h3>
+<p><img src="Dot Plot.png" class="img-fluid" alt="Redesigned Dot Plot of NFL Team Wins"> <iframe src="https://harkkkirat.shinyapps.io/MyShinyApp515no8/" width="100%" height="600" frameborder="0"></iframe></p>
+
+<p><strong>Clarity in Data Storytelling</strong> This visualization takes form as a dot plot, a choice made to strip back the complexity of traditional pie charts and sunburst diagrams. The dot plot excels in presenting discrete data points like our NFL teams’ wins, offering a direct, unobscured view into the successes of each franchise.</p>
+<p><strong>Engage with Each Victory</strong> Hover your mouse over the display, and watch as it becomes an interactive journey through NFL history. Each dot, a beacon of triumph, reveals not just the number of wins but also the division and conference of the team when selected, inviting an engaging exploration that is both informative and intuitive.</p>
+<p><strong>A Visualization That Speaks</strong> By choosing a dot plot, I’ve ensured that the data speaks for itself. Its advantage lies in its straightforwardness – clear, comparable, with the essence of the data uncompromised by over-decoration. It’s a reflection of a thoughtful approach, where the medium is chosen with the message in mind.</p>
+</section>
+<section id="interactive-exploration-of-nfl-team-success" class="level3" data-number="0.4">
+<h3 data-number="0.4" class="anchored" data-anchor-id="interactive-exploration-of-nfl-team-success"><span class="header-section-number">0.4</span> Interactive Exploration of NFL Team Success</h3>
+<p>In the pursuit of a more dynamic and intuitive user experience, the second visualization leverages the power of interactive design to put the data directly into your hands. Here, we have transformed the static display into a versatile bar graph, initially set to encompass all NFL teams’ Super Bowl wins across both conferences.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="All.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Interactive Bar Plot Visualization</figcaption>
+</figure>
+</div>
+<p><strong>Personalized Insights</strong> Dive deeper and tailor the view to your interests. With just a click, filter the visualization to display the triumphs of the teams within the AFC or NFC exclusively. But why stop there? A further click allows you to drill down into the divisions, unveiling the specific contributions each team has made to their division’s success.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Conference.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Interactive Bar Plot Visualization</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Division.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Interactive Bar Plot Visualization</figcaption>
+</figure>
+</div>
+<iframe src="https://harkkkirat.shinyapps.io/MyShinyApp515no7/" width="100%" height="600" frameborder="0">
+</iframe>
+
+<p><strong>Your Data, Your Story</strong> This interactive bar chart does more than just report wins; it invites you to explore and interact with history. The conditional panels respond to your curiosity, offering a personalized narrative of NFL achievements that evolves as you refine your focus. Discover the detailed stories behind each conference’s legacy and how divisions shape up against each other in the competitive landscape of football glory.</p>
+</section>
+<section id="concluding-thoughts-on-the-nfl-super-bowl-wins-redesign-project" class="level3" data-number="0.5">
+<h3 data-number="0.5" class="anchored" data-anchor-id="concluding-thoughts-on-the-nfl-super-bowl-wins-redesign-project"><span class="header-section-number">0.5</span> Concluding Thoughts on the NFL Super Bowl Wins Redesign Project</h3>
+<p>As we reach the end of our visual and analytical excursion, the transformations presented here showcase the power of reimagined data visualization. From the initial scatter plot to the nuanced, interactive bar graphs, this journey has been one of clarity and engagement. These redesigns serve not just as a testament to the potential within data but also as an homage to the art of simplifying complexity. They align with the critical academic standards and practical applications discussed in class, all while enriching my portfolio with designs that speak volumes beyond the datasets they represent.</p>
+<p>As you’ve navigated through these visual narratives, it is my hope that you’ve gained insights into the strategic nuances of visualization and the stories data can tell when harnessed with intention and skill. Whether you’re a seasoned data analyst or a curious onlooker, the redesigns invite you to appreciate the subtleties within the numbers and, perhaps, inspire you to embark on your own projects of data-driven discovery.</p>
+</section>
+<section id="references" class="level3" data-number="0.6">
+<h3 data-number="0.6" class="anchored" data-anchor-id="references"><span class="header-section-number">0.6</span> References</h3>
+<p>McCann, Adam E. “Super Bowl Winners.” Tableau Public, Tableau Software, 2020, https://public.tableau.com/app/profile/adam.e.mccann/viz/SuperBowlWinners_16077204678580/SuperBowlWinners?_gl=1<em>1nvidia</em>_ga<em>MTAwMjY4OTY4My4xNzA5ODQ5MDQ1</em>_ga_8YLN0SNXVS*MTcwOTg0OTA0My4xLjEuMTcwOTg0OTIwOS4wLjAuMA.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
